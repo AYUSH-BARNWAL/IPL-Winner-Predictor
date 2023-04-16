@@ -21,7 +21,6 @@ cities = ['Hyderabad', 'Bangalore', 'Mumbai', 'Indore', 'Kolkata', 'Delhi',
        'Sharjah', 'Mohali', 'Bengaluru']
 
 pipe = pickle.load(open('pipe.pkl','rb'))
-pipe = pickle.load(open('rb'))
 st.title('IPL Win Predictor')
 
 col1, col2 = st.columns(2)
